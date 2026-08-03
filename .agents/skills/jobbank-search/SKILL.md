@@ -19,7 +19,7 @@ description: >
   jobbank søgning, find stilling, data scientist job, software developer job,
   projektleder stilling, konsulent job, data analyse job.
 context: fork
-enabled: true  # set to false to keep this portal installed but have /scrape skip it
+enabled: false  # Danish market - not a target market (CZ/AT/PL/DE). Set true to re-enable.
 allowed-tools: Bash(bun run .agents/skills/jobbank-search/cli/src/cli.ts *)
 ---
 

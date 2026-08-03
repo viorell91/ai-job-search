@@ -95,3 +95,7 @@ upskill/*.md
 
 # Brainstorm mockups (superpowers visual companion) - never ship
 .superpowers/
+
+# Local isolated toolchain (bun + TinyTeX), created by env.sh setup.
+# Removable with: rm -rf .toolchain .venv
+.toolchain/

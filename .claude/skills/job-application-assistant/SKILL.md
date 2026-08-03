@@ -16,6 +16,12 @@ framework_version: 1.1.0
 
 When the user provides a job posting (URL or text), follow this workflow:
 
+### Step 0: Locate the posting in the market map
+- Read `markets.md` for the target markets, work-authorization status and language policy
+- Read `09-market-conventions.md` for that market's application norms (photo, pay
+  expectations, contract form, how to address the letter)
+- If the posting is outside the active markets, say so before evaluating rather than after
+
 ### Step 1: Research & Evaluate Fit
 - Fetch the job posting content (use WebFetch for URLs)
 - Analyze the posting for required competencies, keywords, and priorities
@@ -57,6 +63,7 @@ When the user provides a job posting (URL or text), follow this workflow:
 | `06-cover-letter-templates.md` | LaTeX cover letter structure and tailoring rules |
 | `07-interview-prep.md` | STAR examples, tough questions, roleplay guidelines |
 | `08-application-forms.md` | Portal free-text fields: self-introduction, project entries, character-limited pitches |
+| `09-market-conventions.md` | CZ / AT / PL / DE application norms: photo, pay expectations, contract form, addressing |
 
 ---
 
